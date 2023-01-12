@@ -74,6 +74,7 @@ public class Loopfor {
 				System.out.printf("\n게임오바 ,정답은 : %d",answer);
 				break;
 			}
+			
 		
 		}
 	}}
