@@ -1,0 +1,26 @@
+package com.yedam.orgnize;
+
+public class Circle_single {
+	static final double pi=3.141592;
+	//static =정적 공육
+	//클래스파일 로딩시 정해짐
+	//객체생성없이 클래스이름으로 접근가능
+	double r;
+	
+	static Circle_single instance = new Circle_single();
+	static Circle_single getInstance() {
+		return instance;
+	}
+	private Circle_single(){
+		
+	}
+	
+//	Circle_single(double r){
+//		this.r = r;
+//	}
+	
+	double area() {
+		double result = pi*r*r;
+		return result;
+	}
+}
