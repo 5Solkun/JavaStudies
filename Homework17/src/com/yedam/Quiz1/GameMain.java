@@ -1,6 +1,6 @@
 package com.yedam.Quiz1;
 
-public class RPGmain{
+public class GameMain{
 	public static void main(String[] args) {
 		Keypad game = new RPGame();
 		
@@ -15,13 +15,13 @@ public class RPGmain{
 		
 		System.out.println("===================");
 		
-//		game = new ArcadeGame();
-//		game.leftUpButton();
-//		game.rightUpButton();
-//		game.leftDownButton();
-//		game.changeMode();
-//		game.rightUpButton();
-//		game.leftUpButton();
-//		game.rightDownButton();
+		game = new ArcadeGame();
+		game.leftUpButton();
+		game.rightUpButton();
+		game.leftDownButton();
+		game.changeMode();
+		game.rightUpButton();
+		game.leftUpButton();
+		game.rightDownButton();
 	}
 }
